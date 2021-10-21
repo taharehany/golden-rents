@@ -1,0 +1,48 @@
+@media (max-width:1199px){
+	
+}
+
+@media (max-width:991px){
+	
+}
+
+@media (max-width:767px){
+    .what-we-offer-area {
+        background-position: -350px bottom, right -350px bottom;
+    }
+    .wrap_img .image { 
+        height: auto;
+    }
+}
+@media (max-width:575px){
+   
+}
+
+@media (max-width:520px){
+  
+}
+@media (max-width:480px){
+	.what-we-offer-area {
+        background-position: -425px bottom, right -425px bottom
+    }
+    .mid-counter .icon-content h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .what-we-offer-area .mid-counter .icon-md i {
+        font-size: 40px;
+        margin-bottom: 10px
+    }   
+    .what-we-offer-area .icon-content h4 {
+        font-size: 15px;
+    }
+}
+@media (max-width:400px){
+    .about-us-countdown-area .about-content-text h3 {
+        font-size: 18px
+    }
+    .our-servecis-area .rental_item .content {
+        padding: 0 20px;
+       
+    }
+}
