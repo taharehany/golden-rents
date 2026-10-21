@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -374,7 +374,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="cars-list" aria-live="polite">
+					<!-- Static cards remain as a no-JavaScript fallback and are replaced by API data. -->
 					<!--1-->
 					<div class="col-md-6 col-lg-4">
 						<div class="rental_item">
@@ -2054,6 +2055,7 @@
 		<!-- All Plugins -->
 		<script src="js/confer.bundle.js"></script>
 		<script src="js/smooth-scroll.min.js"></script>
+		<script src="js/cars-api.js"></script>
 		<!-- Active -->
 		<script src="js/default-assets/active.js"></script>
 		<div
